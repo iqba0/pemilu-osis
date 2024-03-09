@@ -1,0 +1,14 @@
+{
+    "name": "osis",
+    "description": "Aplikasi Pemilihan Ketua OSIS",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "phpoffice/phpspreadsheet": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
